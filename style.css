@@ -1,0 +1,204 @@
+/*
+ Theme Name:   NES Power News
+ Theme URI:    
+ Description:  NES Power News - ultrabootstrap Child Theme
+ Author:       JTG
+ Author URI:   http://gatl.in
+ Template:     ultrabootstrap
+ Version:      1.0.0
+*/
+
+/*
+ * Blue 	#3457a5
+ * Orange 	#f16639
+ * Green	#78bc53
+ * Yellow	#febf4d
+ */
+ 
+/* Text */
+body, p, h1, h2, h3, h4, h5, h6 { font-family: 'Roboto', sans-serif; }
+.page-title h1 { border: none; font-weight: 900; }
+a, a:visited {  color: #3457a5; }
+
+/* Header */
+header .navbar-default { background: #3457a5; box-shadow: 0px 0px 6px #555;}
+header .logo-tag { background: #3457a5; padding: 5px 15px 5px 0px; margin: 0px; }
+header .navbar-form { padding: 0px; }
+header .navbar-form .btn { background: #f6f6f6; }
+header .navbar-form .main-search .btn .fa { color: #b2b2b2; }
+header ul#menu-primary-menu { background: #fff; }
+header .navbar-default .navbar-nav li a { font-size: 1em; font-weight: bold; letter-spacing: 0px; line-height: 25px; text-transform: none; }
+header .navbar-default .navbar-nav > li > a { color: #b2b2b2; }
+header .navbar-default .navbar-collapse { background: #fff; }
+header .nes-category-menu { background: #fff; }
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus { color: #3457a5; background-color: #fff; }
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-toggle { background: #fff; }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+   .navbar-default .navbar-collapse { clear: both; }
+}
+
+@media (min-width: 767px) {
+	.navbar-default .navbar-nav.nes-category-menu > li > a { color: #3457a5; }
+	.navbar-default .navbar-nav.nes-category-menu > li > a:active,
+	.navbar-default .navbar-nav.nes-category-menu > li > a:hover { border-bottom: 3px solid #3457a5; padding: 15px 15px 12px 15px; }
+}
+
+/* Slider */
+.theme-slider { max-height: 800px; overflow: hidden; position: relative;}
+.theme-slider .carousel-inner .item .slide-caption { position: absolute; bottom: 0px; top: auto !important; transform: none; -moz-transform: none; -webkit-transform: none;transform: none; }
+.theme-slider .carousel-inner .item .slide-caption .slide-caption-details { width: 100%; background-color: transparent; }
+.theme-slider .slide-caption { background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.7) 100%);}
+.theme-slider .slide-caption-details h4 { font-size: 40px; text-transform: none; border: none; }
+.theme-slider .btn-nes { background: #3457a5; border-radius: 0px; letter-spacing: 1px; }
+.theme-slider .item.active { max-height: 800px; overflow: hidden; }
+.nes-slide-caption-box { width: 100%; max-height: 800px; height: 100%; }
+
+@media (max-width: 767px) {
+	.theme-slider .carousel-inner .item .slide-caption { background: #3457a5; position: fixed; bottom: 0px;top: auto !important; padding: 0;}
+	.theme-slider .carousel-inner .item .slide-caption .slide-caption-details { padding: 3px; }
+	.theme-slider .slide-caption-details h4 { font-size: 11px; padding: 0px;}
+	.theme-slider .slide-caption-details .btn { background: #f16639; font-size: 11px;}
+}
+
+/* Featured */
+.nes-featured { background: #f6f6f6; padding: 30px 0; }
+.nes-featured .summary { background-color: #f16639; padding: 5px 20px; position: absolute; bottom: 20px; left: 15px; max-width: 85%; }
+.nes-featured .summary:hover { filter: brightness(80%); }
+.nes-featured .post-block { overflow: hidden; }
+.nes-featured img { transform: scale(1); width: 100%;}
+.nes-featured img:hover { transform: scale(1.07); }
+.nes-featured p { color: #fff; font-weight: 700; letter-spacing: normal; margin: 0; }
+.nes-featured p a { color: #fff; }
+.nes-featured p a { color: #fff; text-decoration: none; }
+.nes-featured-block {max-height: 250px; overflow: hidden; }
+.nes-featured-video {max-height: 250px; }
+
+@media (max-width: 767px) {
+	.nes-featured-block { margin-bottom: 30px; }
+}
+
+/* Welcome */
+.welcome { margin: 30px; height: auto; }
+.welcome div { height: auto; }
+.welcome-box { background: #78bc53; padding: 40px 0px;  text-align: center; }
+.welcome-box h4 { color: #fff; font-size: 36px; font-weight: 700; letter-spacing: normal; text-transform: none; border: none; }
+.welcome-box .welcome-text  { text-align: center; margin: 0 auto; width: 70%; }
+.welcome-box .welcome-text p { color: #fff; font-weight: 700; letter-spacing: .08em; }
+.welcome-box .btn { background-color: #f16639; border: none; border-radius: 0px; font-weight: 700; letter-spacing: normal; padding: 5px 20px; position: absolute; bottom: 15px; left: 0; }
+.welcome-box .btn:hover { filter: brightness(80%); }
+.welcome-box .welcome-text
+
+/* Post List */
+.post-list { margin-top: 30px; }
+.post-list .post-block .summary { background-color: #f16639; padding: 5px 20px; position: absolute; bottom: 20px; left: 15px; max-width: 85%; }
+.post-list .post-block .summary:hover { filter: brightness(80%); }
+.post-list p { color: #fff; font-weight: 700; letter-spacing: normal; margin: 0; }
+.post-list p a { color: #fff; }
+.post-list p a { color: #fff; text-decoration: none; }
+.nes-post-block { max-height: 220px; overflow: hidden; }
+
+/* Sidebar */
+.nes-home-sidebar { background: #3457a5; padding: 20px; margin-bottom: 20px;}
+.nes-home-sidebar h3 { text-align: center; margin-bottom: 20px; }
+.nes-home-sidebar h3, 
+.nes-home-sidebar ul { color: #fff; list-style: none; padding: 0; }
+.nes-home-sidebar ul li a{ color: #fff; }
+.nes-home-sidebar ul li { padding-bottom: 15px; margin-bottom: 15px; border-bottom: 1px solid #fff; }
+.nes-home-sidebar span.post-date { clear: both; display: block; text-transform: uppercase; font-size: 10px; color: #01b4ee; margin: 10px 0 0 0; }
+.nes-sidebar { background: #3457a5; }
+.nes-sidebar h3, .nes-sidebar h4, .nes-sidebar ul { color: #fff; margin: 0; }
+.nes-sidebar ul li a{ color: #fff; }
+.single .nes-sidebar,
+.page .nes-sidebar { background: #3457a5; padding: 20px; }
+.single .nes-sidebar h3, 
+.single .nes-sidebar h4,
+.single .nes-sidebar ul, 
+.page .nes-sidebar h3,
+.page .nes-sidebar h4,
+.page .nes-sidebar ul { color: #fff; margin: 0; border: none; }
+.single .nes-sidebar ul li a,
+.page .nes-sidebar ul li a { color: #fff; }
+.nes-sidebar h4 { text-align: center; margin-bottom: 20px; }
+.nes-sidebar ul { list-style: none; padding: 0;}
+.nes-sidebar ul li { padding-bottom: 15px; margin-bottom: 15px; border-bottom: 1px solid #fff; }
+.nes-sidebar span.post-date { clear: both; display: block; text-transform: uppercase; font-size: 10px; color: #01b4ee; margin: 10px 0 0 0; }
+
+/* Contact */
+section.footers { border-bottom: none; }
+section.nes-contact-footer { background: #f16639; text-align: center;}
+section.nes-contact-footer h2 {color: #fff;}
+section.nes-contact-footer p, section.nes-contact-footer a { color: #fff; font-weight: bold; margin: 15px 0; }
+section.nes-contact-footer .nf-form-fields-required {display: none;}
+section.nes-contact-footer .nf-field-label label { color: #fff; float:left;}
+section.nes-contact-footer .field-wrap .pikaday__container, 
+section.nes-contact-footer .field-wrap .pikaday__display, 
+section.nes-contact-footer .field-wrap>div input, 
+section.nes-contact-footer .field-wrap select, 
+section.nes-contact-footer .field-wrap textarea { float:right;}
+section.nes-contact-footer .field-wrap input[type=button] { color: #fff; background-color: #3457a5; border: none; text-transform: uppercase; font-size: 12px; padding: 7px 20px; font-weight: bold;}
+section.nes-contact-footer .nes-footer-form { margin: 0 auto; float: none !important;}
+p.nes-copyright{ text-align: center; font-weight: bold; color: #999;}
+
+@media (min-width: 767px) {
+	div#nf-form-1-cont { margin-right: 100px; }
+}
+
+/* Footer */
+.scroll-top-wrapper { background-color: #3457a5; }
+
+/* Archive */
+.nes-category { margin-top: 20px; }
+.archive .summary h3 { font-size: 14px; margin: 0px; }
+.archive .summary h3 a { color: #fff; }
+.archive h4 { border: none; font-weight: 900; text-transform: uppercase;}
+
+@media screen and (min-width: 767px) and (max-width: 960px) {
+	.nes-single, .nes-archive, .nes-page { margin-top: 60px; }
+}
+
+/* Archive - Video */
+.nes-video-block { background: #fff; margin: 5px 0; padding: 20px; border-bottom: 1px solid #ddd; }
+h3.nes-video-title { font-size: 1.5em !important; }
+
+/* Single */
+.single .page-title { margin-bottom: 0px; }
+.single .nes-single-post-thumb { margin: 0px 20px 20px 0px; max-width: 35%; }
+.nes-featured-image-caption { background: #f0f0f0; padding: 7px; }
+
+@media screen and (max-width: 767px) {
+	.page-title h1 { margin-top: 40px; }
+}
+
+/* 404 */
+.not-found { text-align: center; }
+.not-found p { color: #000; margin-bottom: 20px; }
+
+/* Ninja Forms - .label-left styles override */
+.nes-footer-form .nf-field-container { margin-bottom: 10px; }
+.nes-footer-form .field-wrap{ -ms-flex-direction:row !important; flex-direction:row !important;-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}
+.nes-footer-form .nf-field-label{ display:-ms-flexbox!important;display:flex!important;-ms-flex-direction:row!important;flex-direction:row!important;-ms-flex-align:center!important;align-items:center!important;padding-right:2%!important;text-align:right!important;width:35%!important;-ms-flex-order:5!important;order:5!important}
+.nes-footer-form .nf-field-label label{width:100%!important}
+.nes-footer-form .nf-field-description{margin-left:35%!important}
+.nes-footer-form .nf-field-element{display:inline-block!important;width:65%!important;-ms-flex-order:10!important;order:10!important}
+.nes-footer-form .nf-after-field{margin-left:36.5%!important}
+.nes-footer-form .listcheckbox-wrap .nf-field-label,
+.nes-footer-form .listradio-wrap .nf-field-label,
+.nes-footer-form .textarea-wrap .nf-field-label {-ms-flex-align:start!important;align-items:flex-start!important}
+.nes-footer-form .textarea-wrap .nf-field-label {margin-top:5px!important}
+.nes-footer-form .hr-wrap,.nes-footer-form .html-wrap {display:block!important}
+.nes-footer-form .hr-wrap .nf-field-element,
+.nes-footer-form .html-wrap .nf-field-element {display:block!important;margin:0!important;width:100%!important}
+
+@media screen and (min-width: 767px) {
+	#nf-field-1-container, #nf-field-2-container { width: 49%; float: left; }
+	#nf-field-3-container { width: 49%; float: right; margin-top: -46px;}
+	#nf-field-3-container.nf-field-container { clear: none; }
+	#nf-field-4-container { clear: both; }
+	.nes-footer-form .nf-field-element textarea { height: 73px; }
+}
